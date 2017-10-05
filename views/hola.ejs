@@ -1,0 +1,19 @@
+<!-- views/hola.ejs -->
+
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Hola Mundo!</title>
+  <link rel="stylesheet" href="/css/master.css">
+ </head>
+ <body>
+  <h1>Hola
+   <% if(name){ %>
+    <span class="name"><%= name %>!</span>
+   <% } else { %>
+    <span class="stranger">Stranger!</span>
+   <% } %>
+  </h1>
+ </body>
+</html>
