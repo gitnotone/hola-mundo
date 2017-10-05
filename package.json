@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gitnotone/hola-mundo/issues"
   },
-  "homepage": "https://github.com/gitnotone/hola-mundo#readme"
+  "homepage": "https://github.com/gitnotone/hola-mundo#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
