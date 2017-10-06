@@ -16,6 +16,7 @@ app.get("/hola/:nameParam", function(req,res){
  res.render("hola", {name:req.params.nameParam});
 });
 
-app.listen(3000, function(){
- console.log('Server On!');
+var port = process.env.PORT || 3000; //*
+app.listen(port, function(){
+  console.log('Server On!');
 });
